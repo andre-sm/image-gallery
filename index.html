@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Image Gallery</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__logo">
+        <a href="#" class="logo">imaginary</a>
+      </div>
+      <div class="header__search">
+        <form action="#" class="search__form">
+          <input 
+            type="search" 
+            class="search__input" 
+            placeholder="Find amazing images..."
+            autocomplete="off"
+            autofocus
+          >
+          <button class="btn btn-search">
+            <i class="search__icon"></i>
+          </button>
+        </form>
+        <button class="btn btn-remove">
+          <i class="remove__icon"></i>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="gallery"></div>
+      <button class="btn btn-more">
+        Get more
+      </button>
+      <button class="btn btn-to-top"></button>
+    </main>
+    <footer class="footer">
+      <div class="footer__data">
+        <span class="footer__year">© 2022</span>
+        <a href="https://github.com/andre-sm" class="footer__github-link">github</a>
+      </div>
+      <a href="https://rs.school/js/" class="footer__school-link"><i class="footer__rss-logo"></i></a>
+    </footer>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
