@@ -1,1 +1,1 @@
-# image-gallery
+# Image Gallery - The RS School - Stage 0
